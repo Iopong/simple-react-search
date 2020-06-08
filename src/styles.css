@@ -1,0 +1,49 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.container {
+  margin: 0 auto;
+  width: 60vw;
+  height: 90vh;
+}
+
+.border-box {
+  border: 2px solid #007bc9;
+}
+
+.header-box {
+  border: 1px solid;
+  border-radius: 3px;
+  padding: 1rem;
+  background: #007bc9;
+  color: white;
+  margin-bottom: 0.7rem;
+}
+
+.search-label {
+  padding-right: 2rem;
+}
+
+.search {
+  border: none;
+  border-bottom: 1px solid white;
+  background-color: inherit;
+  color: white;
+}
+
+.search:focus {
+  outline: none;
+}
+
+.search::placeholder {
+  color: white;
+}
+
+.items-container {
+  border: 2px solid black;
+  padding: 0.5rem;
+  max-height: 30%;
+  overflow: auto;
+}
